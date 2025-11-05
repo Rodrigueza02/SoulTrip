@@ -1,3 +1,4 @@
+// Entidad que representa una obra con sus atributos (autor, año, descripción)
 package com.museo.backend.model;
 
 import jakarta.persistence.*;
