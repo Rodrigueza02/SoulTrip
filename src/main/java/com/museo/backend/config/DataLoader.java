@@ -1,3 +1,4 @@
+// Carga de datos iniciales al arrancar la aplicación
 package com.museo.backend.config;
 
 import com.museo.backend.model.Artwork;
