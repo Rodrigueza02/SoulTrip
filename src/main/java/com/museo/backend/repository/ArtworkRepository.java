@@ -1,3 +1,4 @@
+// Repositorio que conecta la entidad 'Artwork' con la base de datos
 package com.museo.backend.repository;
 
 import com.museo.backend.model.Artwork;
