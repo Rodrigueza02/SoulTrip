@@ -1,3 +1,4 @@
+// Repositorio de la entidad 'Cuadro'
 package com.museo.backend.repository;
 import com.museo.backend.model.Cuadro;
 import org.springframework.data.jpa.repository.JpaRepository;
