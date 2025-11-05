@@ -1,3 +1,4 @@
+// Servicio que maneja la lógica de los cuadros
 package com.museo.backend.service;
 
 import com.museo.backend.model.Cuadro;
