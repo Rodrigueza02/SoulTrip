@@ -1,0 +1,336 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.55f1 (c5f59906196d) revision 12973465'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'es' Physical Memory: 15836 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-10-23T21:25:56Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.55f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+C:/Users/MixtaPortatil/Museo vivo
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+59515
+-job-worker-count
+10
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/MixtaPortatil/Museo vivo
+C:/Users/MixtaPortatil/Museo vivo
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27460]  Target information:
+
+Player connection [27460]  * "[IP] 172.26.64.1 [Port] 0 [Flags] 2 [Guid] 870065928 [EditorId] 870065928 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-014K9A5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [27460]  * "[IP] 10.162.248.103 [Port] 0 [Flags] 2 [Guid] 870065928 [EditorId] 870065928 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-014K9A5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [27460] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [27460] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 10
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.66 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.57 ms.
+Initialize engine version: 6000.0.55f1 (c5f59906196d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.55f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/MixtaPortatil/Museo vivo/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA RTX 500 Ada Generation Laptop GPU (ID=0x28ba)
+    Vendor:   NVIDIA
+    VRAM:     3893 MB
+    Driver:   32.0.15.7344
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.55f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.55f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.55f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.55f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.55f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002544 seconds.
+- Loaded All Assemblies, in  0.436 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 289 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.779 seconds
+Domain Reload Profiling: 1213ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (141ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (182ms)
+				TypeCache.ScanAssembly (163ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (780ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (719ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (384ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (169ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.992 seconds
+Refreshing native plugins compatible for Editor in 2.18 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <79ca87e32bc54632a9d42d8f2805ee4c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <79ca87e32bc54632a9d42d8f2805ee4c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <79ca87e32bc54632a9d42d8f2805ee4c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <2c2557cc28ef491cb087583268e49902>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.941 seconds
+Domain Reload Profiling: 1929ms
+	BeginReloadAssembly (243ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (623ms)
+		LoadAssemblies (474ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (284ms)
+			TypeCache.Refresh (218ms)
+				TypeCache.ScanAssembly (197ms)
+			BuildScriptInfoCaches (52ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (942ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (744ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (439ms)
+			ProcessInitializeOnLoadMethodAttributes (163ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 3.92 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6968 unused Assets / (9.0 MB). Loaded Objects now: 7646.
+Memory consumption went from 137.9 MB to 128.9 MB.
+Total: 18.255800 ms (FindLiveObjects: 0.881600 ms CreateObjectMapping: 0.605600 ms MarkObjects: 7.953100 ms  DeleteObjects: 8.813100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 662342.354032 seconds.
+  path: Packages/com.blockadelabs.sdk/Meshes/SkyboxPreviewMesh.asset
+  artifactKey: Guid(b2537666dbd281c4da9a768322610beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.blockadelabs.sdk/Meshes/SkyboxPreviewMesh.asset using Guid(b2537666dbd281c4da9a768322610beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '552c08351b9762e2de2dc0637b708153') in 0.1426624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.209125 seconds.
+  path: Packages/com.blockadelabs.sdk/Prefabs/History Item.prefab
+  artifactKey: Guid(5b788d465101b0d4c986e2d8133b18cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.blockadelabs.sdk/Prefabs/History Item.prefab using Guid(5b788d465101b0d4c986e2d8133b18cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e1b915121c4a024e09de287a3f896b8') in 0.1090553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.976031 seconds.
+  path: Packages/com.blockadelabs.sdk/Shaders/PanoramicToCubemap.compute
+  artifactKey: Guid(88116db5d6db25542b83a839d6332779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.blockadelabs.sdk/Shaders/PanoramicToCubemap.compute using Guid(88116db5d6db25542b83a839d6332779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1225629300c558c1440a717bd94e223') in 0.0011367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.480438 seconds.
+  path: Packages/com.blockadelabs.sdk/Sprites/api-icon.png
+  artifactKey: Guid(8bb9c337bc1d2ce4785ea61eb16eafe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.blockadelabs.sdk/Sprites/api-icon.png using Guid(8bb9c337bc1d2ce4785ea61eb16eafe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ee80ca3a08c872b653920b5181d50f8') in 0.080265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.blockadelabs.sdk/Sprites/info.png
+  artifactKey: Guid(742bba0c73bd7bf4e89293bc90a8dc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.blockadelabs.sdk/Sprites/info.png using Guid(742bba0c73bd7bf4e89293bc90a8dc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0823bdc711cfaf8e1437e170f7074e74') in 0.0966209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.blockadelabs.sdk/Sprites/world-icon.png
+  artifactKey: Guid(339f22f457a68a74fac9a2b8c76d9774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.blockadelabs.sdk/Sprites/world-icon.png using Guid(339f22f457a68a74fac9a2b8c76d9774) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd95a14d367aa5b9a6e0bf5bc9951a8f7') in 0.0232701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.blockadelabs.sdk/Sprites/eye.png
+  artifactKey: Guid(77213a5d2d9f66649828357964d690e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.blockadelabs.sdk/Sprites/eye.png using Guid(77213a5d2d9f66649828357964d690e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c64b64e81ad1dfc1ab601b641f8274b3') in 0.0246036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.blockadelabs.sdk/Sprites/question-mark.png
+  artifactKey: Guid(89686b23d0743f9468bb58017b9bd03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.blockadelabs.sdk/Sprites/question-mark.png using Guid(89686b23d0743f9468bb58017b9bd03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c3f142511ef0c4cc9cf6a89ded0a5f9') in 0.0249195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.blockadelabs.sdk/Sprites/upload.png
+  artifactKey: Guid(85122ecc83edced49be035169239ddaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.blockadelabs.sdk/Sprites/upload.png using Guid(85122ecc83edced49be035169239ddaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '582939f9263399310472d054c4409d65') in 0.0251444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.blockadelabs.sdk/Sprites/border-6.png
+  artifactKey: Guid(febdccb37674a2e42ab109311c696620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.blockadelabs.sdk/Sprites/border-6.png using Guid(febdccb37674a2e42ab109311c696620) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8e9c79a8a94de37c18123a3c6ca2ecd') in 0.0307928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.blockadelabs.sdk/Sprites/triangle.png
+  artifactKey: Guid(07ce1ba84de904f4f8e91319464f5f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.blockadelabs.sdk/Sprites/triangle.png using Guid(07ce1ba84de904f4f8e91319464f5f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9683aae1acea1608c9ffdd0713e71f42') in 0.0267042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.blockadelabs.sdk/Sprites/toggle-off.png
+  artifactKey: Guid(82a47771a78aa09469065025a194d54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.blockadelabs.sdk/Sprites/toggle-off.png using Guid(82a47771a78aa09469065025a194d54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d79492bcc3e22284cdbbbb8efafdb2f') in 0.0245186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.423821 seconds.
+  path: Packages/com.blockadelabs.sdk/Textures/PreviewRenderTexture.renderTexture
+  artifactKey: Guid(2b04fd19f6e6b0b4292c7df647bfdff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.blockadelabs.sdk/Textures/PreviewRenderTexture.renderTexture using Guid(2b04fd19f6e6b0b4292c7df647bfdff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbdaf6563ee8dc09f670b0422d3cb4a6') in 0.0272224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.645597 seconds.
+  path: Packages/com.blockadelabs.sdk/Tests/BlockadeLabsSDK.Tests.asmdef
+  artifactKey: Guid(2e22f57ee0ff02046b3b2345a4fb67fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.blockadelabs.sdk/Tests/BlockadeLabsSDK.Tests.asmdef using Guid(2e22f57ee0ff02046b3b2345a4fb67fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11fc6bfb92ac6247d7be434d64836b9b') in 0.0008174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.704723 seconds.
+  path: Packages/com.blockadelabs.sdk/Volumes/Blockade HDRP Volume Profile.asset
+  artifactKey: Guid(0b478194c970ff9418e805599ea5b1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.blockadelabs.sdk/Volumes/Blockade HDRP Volume Profile.asset using Guid(0b478194c970ff9418e805599ea5b1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf17a7f10d8097d81f24971ec0b76d3c') in 0.0026449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
