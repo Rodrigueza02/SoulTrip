@@ -6,6 +6,10 @@ COPY src ./src
 RUN mvn clean package -DskipTests
 
 # Etapa 2: ejecutar el JAR
+# Etapa 2: ejecutar el JAR# Etapa 2: ejecutar el JAR
+
+
+
 FROM eclipse-temurin:17-jdk
 WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
