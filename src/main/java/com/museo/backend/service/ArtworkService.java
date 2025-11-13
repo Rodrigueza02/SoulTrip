@@ -1,11 +1,11 @@
-// Servicio con la lógica de negocio para las obras
+// Service layer for managing artworks
 package com.museo.backend.service;
 
 import com.museo.backend.model.Artwork;
 import com.museo.backend.repository.ArtworkRepository;
 import org.springframework.stereotype.Service;
 
-import java.util.Optional;
+import java.util.List;
 
 @Service
 public class ArtworkService {
@@ -16,11 +16,19 @@ public class ArtworkService {
         this.repo = repo;
     }
 
-    public Optional<Artwork> findById(String id) {
-        return repo.findById(id);
+    public List<Artwork> getAllArtworks() {
+        return repo.findAll();
     }
 
-    public Artwork save(Artwork a) {
-        return repo.save(a);
+    public Artwork getArtworkById(String id) {
+        return repo.findById(Long.valueOf(id)).orElse(null);
+    }
+
+    public Artwork createArtwork(Artwork artwork) {
+        return repo.save(artwork);
+    }
+
+    public void deleteArtwork(String id) {
+        repo.deleteById(Long.valueOf(id));
     }
 }

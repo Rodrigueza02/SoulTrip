@@ -1,4 +1,4 @@
-// Configuración de seguridad para autenticar usuarios y proteger rutas
+// Security configuration to authenticate users and protect routes
 package com.museo.backend.config;
 
 import org.springframework.context.annotation.Bean;

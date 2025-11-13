@@ -1,31 +1,39 @@
-// Controlador para manejar las operaciones sobre obras de arte
+// Controller that manages operations related to artworks
 package com.museo.backend.controller;
 
 import com.museo.backend.model.Artwork;
 import com.museo.backend.service.ArtworkService;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
-@RequestMapping("/api/artwork")
-@CrossOrigin(origins = "*")
+@RequestMapping("/api/artworks")
 public class ArtworkController {
 
-    private final ArtworkService svc;
+    private final ArtworkService service;
 
-    public ArtworkController(ArtworkService svc) {
-        this.svc = svc;
+    public ArtworkController(ArtworkService service) {
+        this.service = service;
+    }
+
+    @GetMapping
+    public List<Artwork> getAllArtworks() {
+        return service.getAllArtworks();
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<?> getArtwork(@PathVariable String id) {
-        return svc.findById(id).map(ResponseEntity::ok)
-                .orElseGet(() -> ResponseEntity.notFound().build());
+    public Artwork getArtworkById(@PathVariable String id) {
+        return service.getArtworkById(id);
     }
 
     @PostMapping
-    public ResponseEntity<Artwork> createOrUpdate(@RequestBody Artwork artwork) {
-        Artwork saved = svc.save(artwork);
-        return ResponseEntity.ok(saved);
+    public Artwork createArtwork(@RequestBody Artwork artwork) {
+        return service.createArtwork(artwork);
+    }
+
+    @DeleteMapping("/{id}")
+    public void deleteArtwork(@PathVariable String id) {
+        service.deleteArtwork(id);
     }
 }
