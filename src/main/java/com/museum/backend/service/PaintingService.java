@@ -1,9 +1,10 @@
 // Service layer for managing paintings
-package com.museo.backend.service;
+package com.museum.backend.service;
 
-import com.museo.backend.model.Painting;
-import com.museo.backend.repository.PaintingRepository;
 import org.springframework.stereotype.Service;
+
+import com.museum.backend.model.Painting;
+import com.museum.backend.repository.PaintingRepository;
 
 import java.util.List;
 
