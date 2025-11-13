@@ -1,7 +1,7 @@
 
-# Museo Vivo - Backend
+# SoulTrip - Backend
 
-Este proyecto es el backend del sistema *Museo Vivo*, desarrollado en **Java Spring Boot**.
+Este proyecto es el backend del sistema *SoulTrip*, desarrollado en **Java Spring Boot**.
 Permite gestionar obras de arte (`Artwork`) y cuadros (`Cuadro`) a través de una API RESTful.
 
 ## Tecnologías
