@@ -30,9 +30,17 @@ public class SecurityConfig {
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
-        config.setAllowedOrigins(List.of("*"));     
-        config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
+        
+        // CAMBIA ESTO:
+        // config.setAllowedOrigins(List.of("*"));  // ❌ NO FUNCIONA CON "*"
+        
+        // POR ESTO:
+        config.setAllowedOriginPatterns(List.of("*"));  // ✅ USA PATTERNS
+        
+        config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));
         config.setAllowedHeaders(List.of("*"));
+        config.setAllowCredentials(true);  // Agrega esto también
+        config.setMaxAge(3600L);
 
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         source.registerCorsConfiguration("/**", config);
