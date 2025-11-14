@@ -1,33 +1,33 @@
 spring:
   datasource:
-    url: jdbc:postgresql://aws-0-us-east-1.pooler.supabase.com:6543/postgres
-    username: postgres.uerkoweysjcsflunegui
-    password: Malua.230225
+    url: ${DATABASE_URL:jdbc:postgresql://aws-0-us-east-1.pooler.supabase.com:6543/postgres}
+    username: ${DATABASE_USERNAME:postgres.uerkoweysjcsflunegui}
+    password: ${DATABASE_PASSWORD:Malua.230225}
     driver-class-name: org.postgresql.Driver
 
   hikari:
-      maximum-pool-size: 1
-      minimum-idle: 0
+      maximum-pool-size: 2
+      minimum-idle: 1
       idle-timeout: 10000
       connection-timeout: 30000
-      max-lifetime: 30000
+      max-lifetime: 1800000
 
   jpa:
     hibernate:
       ddl-auto: update
-    show-sql: true
+    show-sql: false  # Cambia a false en producción
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
-        format_sql: true
+        format_sql: false
     open-in-view: false
 
 server:
   port: ${PORT:8080}
-  address: 0.0.0.0  # AGREGA ESTA LÍNEA
+  address: 0.0.0.0
 
 logging:
   level:
-    org.hibernate.SQL: DEBUG
-    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
-    com.museum.backend: DEBUG
+    root: INFO
+    com.museum.backend: INFO
+    org.hibernate.SQL: WARN

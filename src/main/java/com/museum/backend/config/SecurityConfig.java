@@ -31,15 +31,12 @@ public class SecurityConfig {
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
         
-        // CAMBIA ESTO:
-        // config.setAllowedOrigins(List.of("*"));  // ❌ NO FUNCIONA CON "*"
-        
-        // POR ESTO:
-        config.setAllowedOriginPatterns(List.of("*"));  // ✅ USA PATTERNS
+        // DEBE ser allowedOriginPatterns, NO allowedOrigins
+        config.setAllowedOriginPatterns(List.of("*"));
         
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));
         config.setAllowedHeaders(List.of("*"));
-        config.setAllowCredentials(true);  // Agrega esto también
+        config.setAllowCredentials(true);
         config.setMaxAge(3600L);
 
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
